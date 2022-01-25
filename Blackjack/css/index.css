@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  color:#fff;
+  background:linear-gradient(to right,#f4c5fd,#d087ea) center/cover ;
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+h1{
+  color:#f716eb;
+  font-size: 16px;
+}
+small{
+  font-style: italic;
+  font-size: 10px;
+}
+#message-el{
+  
+}
+.btn{
+  width: 40%;
+  padding: 5px 10px;
+  border-radius: .2em;
+  border:none ;
+  background-color: #f958f2;
+  color:white ;
+}
+.new{
+  opacity: .9;
+  margin-top: 5px;
+}

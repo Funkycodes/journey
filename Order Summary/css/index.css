@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  text-align:center;
+  font-family:'Red Hat Display';
+  width:375px;
+  background:url('../images/pattern-background-mobile.svg') center center/cover no-repeat;
+  font-weight: 500;
+}
+.card{
+width: 90%;  
+margin:auto ;
+border-radius: 16px;
+margin-top: 6%;
+margin-bottom: 2%;
+background-color: hsl(225,100%,98%);
+}
+.hero{
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+.comp-name,h1{
+  color: hsl(223,47%,23%);
+  font-weight: 900;
+}
+h1{
+  font-weight: 700;
+  font-size: 24px;
+}
+#tak{
+  color: hsl(224,23%,55%);
+  font-size: 12px;
+}
+
+p{
+  color:hsl(224,23%,55%);
+  font-size: 16px;
+  font-weight: 500;
+}
+.plan{
+  display:flex;
+  align-items:center ;
+  justify-content: space-between;
+  background-color:hsl(224,100%,94%);
+  border-radius:12px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: auto 5%;
+}
+.plan img{
+  height:3em;
+  width: 3em;
+  margin-left:20px;
+}
+.text{
+  color: hsl(223,47%,23%);
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+a{
+  padding-right: 20px;
+  color:hsl(245,75%,52%);
+  font-size: 14px;
+}
+a:hover,a:focus,.attribution>a:hover,.attribution>a:focus{
+  color:hsl(223,47%,23%);
+}
+.pricing{
+  display: block;
+  color:hsl(224,23%,55%);
+}
+#proceed{
+  background-color: hsl(245,75%,52%);
+  color: hsl(225,100%,98%);
+  font-weight: 700;
+  padding: 16px 80px;
+  border:none;
+  border-radius:12px ;
+  margin: 10% 0 4% 0;
+  font-size: 16px;
+}
+#proceed:hover,#proceed:focus{
+  background-color:hsl(224,23%,55%);
+}
+#cancel{
+  border: none;
+  color:hsl(224,23%,55%);
+  font-weight: 700;
+  background: none;
+  margin-bottom: 4%;
+  font-size: 14px;
+  padding:18px 90px;
+}
+#cancel:hover,#cancel:focus{
+  color:hsl(223,47%,23%);
+}
